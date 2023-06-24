@@ -6,12 +6,7 @@ import Cactus from '../../assets/cactus.jpg';
 export default function Popular() {
   return (
     <main className='popular'>
-      <ul className='popular__header'>
-        <li>
-          The Weeks Most Popular <mark className='olive'>And</mark>{' '}
-        </li>
-        <li>Best Selling</li>
-      </ul>
+      <h1>This Weeks Most Popular <span>And Best Selling</span></h1>
 
       <section className='popular__cardsSection'>
         <div className='card'>

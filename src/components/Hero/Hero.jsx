@@ -12,13 +12,7 @@ export default function Hero() {
         <h3>------ Love for Nature</h3>
 
         <div className='hero__main--leftInfo'>
-          <ul>
-            <li>Discover</li>
-            <li>Your</li>
-            <li>Green</li>
-          </ul>
-          <h2>Side</h2>
-
+          <h2>Discover Your Green Side</h2>
           <p>
             We are your one-stop destination for all things green and growing.
             Our website offers a wide array of stunning plants, ranging from

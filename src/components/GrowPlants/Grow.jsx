@@ -12,11 +12,7 @@ export default function Grow() {
   return (
     <main className='grow'>
       <div className='grow__header'>
-        <ul>
-          <li>Steps To Take Care Of Your</li>
-          <li>Plants</li>
-        </ul>
-
+        <h1>Steps To Take Care Of Your Plants</h1>
         <p>
           By following our tips of correct watering, exposing plants to as much
           light as possible and giving them plenty of space for photosynthesis -

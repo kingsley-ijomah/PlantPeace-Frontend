@@ -1,24 +1,17 @@
 .popular {
-  padding-bottom: 100px;
   background-color: #f0f1ee;
 
-  &__header {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
+  h1 {
+    max-width: 700px;
+    margin: 80px auto;
+    text-align: center;
+    word-spacing: 10px;
 
-    margin-top: 100px;
-
-    align-items: center;
     font-size: 50px;
-
     color: #354733;
-    font-weight: bold;
 
-    :last-child {
+    span {
       color: #8a9b6e;
-      background: none;
-      font-weight: bold;
     }
   }
 

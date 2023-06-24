@@ -9,7 +9,7 @@
     color: #354733;
     text-align: center;
 
-    .olive {
+    span {
       color: #8a9b6e;
       background: none;
     }
@@ -40,6 +40,16 @@
 
     border-top: 1px #8a9b6e solid;
     border-bottom: 1px #8a9b6e solid;
+
+    img {
+      width: 20px;
+    }
+
+    a {
+      display: flex;
+      gap: 10px;
+      color: #8a9b6e;
+    }
 
     .selected {
       color: #354733;
