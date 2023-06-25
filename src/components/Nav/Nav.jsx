@@ -1,6 +1,8 @@
 import React from 'react';
 import './Nav.scss';
 
+import { Link } from 'react-router-dom';
+
 import Logo from '../../assets/logo1.svg';
 import Search from '../../assets/search.svg';
 import Account from '../../assets/account.svg';
@@ -15,11 +17,11 @@ export default function Nav() {
       </div>
 
       <ul className='nav__middleBlock'>
-        <li>Home</li>
-        <li>Product</li>
-        <li>About us</li>
-        <li>Contact</li>
-        <li>Blog</li>
+        <li><Link to='#'>Home</Link></li>
+        <li><Link to='#'>Product</Link></li>
+        <li><Link to='#'>About us</Link></li>
+        <li><Link to='#'>Contact</Link></li>
+        <li><Link to='#'>Blog</Link></li>
       </ul>
 
       <div className='nav__lastBlock'>
