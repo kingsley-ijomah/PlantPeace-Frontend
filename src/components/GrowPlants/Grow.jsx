@@ -21,7 +21,7 @@ export default function Grow() {
       </div>
 
       <section className='grow__adviceCards'>
-        <div className='water'>
+        <div>
           <ul>
             <li>
               <img src={Water} />
@@ -34,7 +34,7 @@ export default function Grow() {
           </p>
         </div>
 
-        <div className='sun'>
+        <div>
           <ul>
             <li>
               <img src={Sun} />
@@ -48,7 +48,7 @@ export default function Grow() {
           </p>
         </div>
 
-        <div className='fertliser'>
+        <div>
           <ul>
             <li>
               <img src={Fertliser} />
